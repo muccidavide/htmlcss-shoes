@@ -17,6 +17,11 @@ h2 {
     letter-spacing: 1rem;
 }
 
+li>a{
+    text-decoration: none;
+    color: black;
+}
+
 /*******
  Main 
  *******/
@@ -28,6 +33,18 @@ h2 {
 .shoes_box {
     height: 100%;
     position: relative;
+}
+
+.navbar ul>li{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 3rem;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50% ;
+    margin: 0 0.5rem;
 }
 
 .product_box {
